@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1tr3d7ljy83k"]
+
+[ext_resource type="Script" uid="uid://ddbbcdx3i54rl" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(410, 257)
+script = ExtResource("1_ig7tw")
+
+[node name="MoneyLabel" type="Label" parent="."]
+offset_left = 472.0
+offset_top = -37.0
+offset_right = 613.0
+offset_bottom = 5.0
+theme_override_font_sizes/font_size = 30
+text = "Money:$0"
+
+[node name="ClickButton" type="Button" parent="."]
+offset_left = 438.0
+offset_top = 291.0
+offset_right = 660.0
+offset_bottom = 398.0
+text = "Click to earn $$$"
+
+[node name="UpgradeButton" type="Button" parent="."]
+offset_left = 466.0
+offset_top = 119.0
+offset_right = 623.0
+offset_bottom = 194.0
+text = "Upgrade 1"
